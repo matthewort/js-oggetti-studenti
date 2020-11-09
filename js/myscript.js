@@ -68,9 +68,7 @@ var studenti =
 ];
 
 for(var key in studenti) {
-  if () {
+
   console.log(studenti[key]);
-} else {
-  console.log("Nope");
-}
+
 }
