@@ -28,22 +28,22 @@ var studenti =
   {
     'nome': 'giorgio',
     'cognome': 'piaggio',
-    'età': '18'
+    'eta': '18'
   },
   {
     'nome': 'ludovico',
     'cognome': 'caproni',
-    'età': '18'
+    'eta': '18'
   },
   {
     'nome': 'lucia',
     'cognome': 'macchi',
-    'età': '18'
+    'eta': '18'
   },
   {
     'nome': 'chiara',
     'cognome': 'reggiane',
-    'età': '18'
+    'eta': '18'
   },
 ];
 
@@ -57,13 +57,9 @@ for(var key in studenti) {
 //     aggiungere un nuovo oggetto studente inserendo nell’ordine: nome, cognome e età.
 
 var richiestaNome = prompt("Scrivi nome");
-studenti.push(richiestaNome);
-
 var richiestaCognome = prompt("Scrivi cognome");
-studenti.push(richiestaCognome);
-
 var richiestaEta = prompt("Scrivi età");
-studenti.push(richiestaEta);
+
 
 studenti.push({
     nome: richiestaNome,
@@ -71,4 +67,12 @@ studenti.push({
     eta: richiestaEta
 });
 
-console.log(studenti);
+
+console.log("---------------------------------");
+
+for (var i in studenti) {
+  console.log(studenti[i].nome);
+  console.log(studenti[i].cognome);
+  console.log(studenti[i].eta);
+
+}
