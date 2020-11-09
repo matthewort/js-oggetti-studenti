@@ -69,6 +69,7 @@ var studenti =
 
 for(var key in studenti) {
 
-  console.log(studenti[key]);
+  console.log(studenti[key].nome);
+  console.log(studenti[key].cognome);
 
 }
