@@ -70,3 +70,5 @@ studenti.push({
     cognome: richiestaCognome,
     eta: richiestaEta
 });
+
+console.log(studenti);
