@@ -11,12 +11,66 @@
 //     e/o gestione casi limite;
 //     ciò che volete provare.
 
-var studente = {
-  'nome': 'guglielmo',
-  'cognome': 'ansaldo',
-  'età': '32'
-};
+// ex1
+// var studente = {
+//   'nome': 'guglielmo',
+//   'cognome': 'ansaldo',
+//   'età': '32'
+// };
+//
+// for(var key in studente) {
+//   console.log(studente[key]);
+// }
 
-for(var key in studente) {
-  console.log(studente[key]);
+// ex2
+// var studente1 = {
+//   'nome': 'giorgio',
+//   'cognome': 'piaggio',
+// };
+//
+// var studente2 = {
+//   'nome': 'ludovico',
+//   'cognome': 'caproni',
+// };
+//
+// var studente3 = {
+//   'nome': 'lucia',
+//   'cognome': 'macchi',
+// };
+//
+// var studente4 = {
+//   'nome': 'chiara',
+//   'cognome': 'reggiane',
+// };
+
+var studenti =
+[
+  {
+    'nome': 'giorgio',
+    'cognome': 'piaggio',
+    'età': '18'
+  },
+  {
+    'nome': 'ludovico',
+    'cognome': 'caproni',
+    'età': '18'
+  },
+  {
+    'nome': 'lucia',
+    'cognome': 'macchi',
+    'età': '18'
+  },
+  {
+    'nome': 'chiara',
+    'cognome': 'reggiane',
+    'età': '18'
+  },
+];
+
+for(var key in studenti) {
+  if () {
+  console.log(studenti[key]);
+} else {
+  console.log("Nope");
+}
 }
