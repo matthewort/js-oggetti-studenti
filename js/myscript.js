@@ -58,31 +58,15 @@ for(var key in studenti) {
 
 var richiestaNome = prompt("Scrivi nome");
 studenti.push(richiestaNome);
-console.log(studenti.nome);
+
 var richiestaCognome = prompt("Scrivi cognome");
-studenti.push(richiestaNome);
-console.log(studenti.cognome);
+studenti.push(richiestaCognome);
+
 var richiestaEta = prompt("Scrivi età");
-studenti.push(richiestaNome);
-console.log(studenti.eta);
+studenti.push(richiestaEta);
 
 studenti.push({
     nome: richiestaNome,
     cognome: richiestaCognome,
     eta: richiestaEta
 });
-
-
-var richiestaNome = {};
-richiestaNome["nome"] = studenti.nome;
-
-
-var richiestaCognome = {};
-richiestaCognome["cognome"] = studenti.cognome;
-studenti.push(richiestaCognome);
-console.log(studenti.cognome);
-
-var richiestaEta = {};
-richiestaEta["età"] = studenti.eta;
-studenti.push(richiestaEta);
-console.log(studenti.eta);
