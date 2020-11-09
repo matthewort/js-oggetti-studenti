@@ -74,5 +74,4 @@ for (var i in studenti) {
   console.log(studenti[i].nome);
   console.log(studenti[i].cognome);
   console.log(studenti[i].eta);
-
 }
